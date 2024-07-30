@@ -1,0 +1,85 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    border: none; 
+    outline: none; 
+    background-image: url('https://img.freepik.com/premium-photo/shopping-bag-concept-mall-background_1064559-9361.jpg');
+   background-clip: text;
+   background-size: 100% 100%;
+   background-attachment:fixed;
+} 
+.c h1{
+    color: rgb(255, 205, 205);
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding: 25px; 
+    color: rgb(0, 204, 255);
+} 
+  
+.container form { 
+    width: 700px; 
+    padding: 20px;  
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2); 
+} 
+.container form .row { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 70px; 
+} 
+.col .title { 
+    font-size: 20px; 
+    color: rgb(237, 55, 23); 
+    padding-bottom: 30px; 
+} 
+.col .inputBox { 
+    margin: 20px 0; 
+} 
+.col .inputBox label { 
+    margin-bottom: 10px; 
+    display: block; 
+} 
+::placeholder {
+    color: blanchedalmond;
+  }
+.col .inputBox input, .col .inputBox select:focus { 
+    width: 100%; 
+    border: 1px solid #0f0e0e;
+    padding: 10px 15px; 
+    font-size: 15px; 
+} 
+.col .flex { 
+    display: flex; 
+    gap: 15px; 
+} 
+  
+.col .flex .inputBox { 
+    flex: 1 1; 
+    margin-top: 5px; 
+} 
+  
+.col .inputBox img { 
+    height: 34px; 
+    margin-top: 5px; 
+}  
+.container form .submit_btn { 
+    width: 100%; 
+    padding: 12px; 
+    font-size: 17px; 
+    background: rgb(1, 143, 34); 
+    color: #fff; 
+    margin-top: 5px; 
+    cursor: pointer; 
+    letter-spacing: 1px; 
+} 
+.container form .submit_btn:hover { 
+    background: #3d17fb; 
+} 
+  
+
+ 
